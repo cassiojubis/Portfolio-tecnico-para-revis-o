@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Técnico de Revisão</title>
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+<div class="main-wrapper">
+    <div class="container">
+
+        <!-- CABEÇALHO -->
+        <header>
+            <span class="header-emoji">📚</span>
+            <h1>Portfólio Técnico de  Informatica</h1>
+            <p>Site criado para revisar os conteúdos do curso de  tecnico em Informatica.</p>
+        </header>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="#Linguagem">🧠 Linguagem</a></li>
+                <li><a href="#poo">🧱 POO</a></li>
+                <li><a href="#banco">🗄️ Banco</a></li>
+                <li><a href="#mysql">🐬 MySQL</a></li>
+                <li><a href="#git">🔧 Git</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTEÚDO -->
+        <main>
+            
+            <section id="linguagem">
+                <h2>🧠 Linguagem de Programação</h2>
+
+                <h3>0️⃣Padronização de Nomes  </h3>
+                <h4> <b>🔹 O que são? </b> </h4>
+                <p>É dar<b> nomes que expliquem o que a coisa é ou faz.</b>O nome do código deve “se explicar sozinho”.</p>
+                <p> A padronização vai fazer que pessoas que forem ver seu codigo, entender os nomes e o que cada parte do código faz.</p>
+                <p>📌Isso é muito importante pois:</p>
+                    <p> &bull;  evita confusão</p>
+                    <p> &bull; facilita a revisão do codigo e o estudos</p>
+                    <p> &bull; ajuda a corrigir erros</p> 
+                    <p> &bull; ajuda a manter o código organizado e mais profissinal</p> 
+
+                <p>❌ Exemplo ruim (confuso)</p>
+                    int i;
+                    int v;
+                <p>o nome dessa  variavel não explica o que ela é ou faz, o que pode causar confusão para quem for ler o código depois.</p>
+                <p>✅ Exemplo bom (explicativo)</p>
+                    int idade;
+                    double valorProduto;
+                <p>o nome dessas variáveis explica claramente o que elas representam, facilitando a compreensão do código.</p>
+
+
+                
+                <h3>1️⃣ Variáveis e Tipos de Dados</h3>
+
+                <p>Variáveis são <b>espaços na memória</b> usados para guardar informações que o programa vai usar.
+                <p> Pense assim:</p>
+                <p>variável = uma caixinha com nome + valor</p>
+                <p>São usadas para <b>armazenar informações na memória do computador</b></p>
+                <p>📌Exemplos de tipos comuns em Java: </p>
+                <p> &bull; <b> int →    </b> números inteiros</p>
+                <p> &bull;  <b> double → </b> números decimais</p>
+                <P> &bull; <b> String → </b> textos
+                <p> &bull;  <b> boolean →</b> verdadeiro ou falso</p>
+                    <img src="imagens/ExemploVariaveis.png" alt="declaração de variaveis">
+                <p>👉 Aqui o programa guarda dados que podem ser usados depois</p>
+
+                <h3>2️⃣ Estruturas Condicionais</h3>
+                    <h4> <b> 🔹 O que são? </b> </h4>
+                    <p> Servem para tomar decisões no programa.</p>
+                    <p> Pense como:</p>
+                    <p>SE algo acontecer, FAÇA isso, SENÃO faça aquilo</p>
+                    <p>📌Exemplo em Java:</p>
+                    <img src="imagens/ExemploIf.png" alt ="Exemplo de estrutura condicional em Java">
+
+                    <h4><b> 🔹 Condições comuns </b></h4>
+                    <p> <b> == </b> → igual a</p>
+                    <p> <b> != </b> → diferente de</p>
+                    <p> <b> > </b> → maior que</p>
+                    <p> <b> < </b> → menor que</p>
+                    <p> <b> >= </b> → maior ou igual a</p>
+                    <p> <b> <= </b> → menor ou igual a</p>
+
+                    <h3>3️⃣ Estruturas de Repetição</h3>
+                    <h4><b> 🔹 O que são? </b></h4>
+                    Usadas quando precisamos repetir uma ação várias vezes.
+                    <p> Pense como: </p>
+                    <p>ENQUANTO algo for verdade, FAÇA isso</p>
+                    <p>📌Exemplo em Java:</p>
+                   
+                    <h4><b>🔹 for (quando sabemos quantas vezes)</b></h4>
+                    <img src="imagens/ExemploFor.png" alt="Exemplo de estrutura de repetição for em Java">
+                     <h4><b>🔹 while (quando não sabemos quantas vezes)</b></h4>
+                    <img src="imagens/ExemploWhile.png" alt="Exemplo de estrutura de repetição while em Java">
+
+                     <h3>4️⃣ Funções/Métodos</h3>
+                     <h4><b>🔹 O que são? </b></h4>
+                    <p>Funções (ou métodos) são blocos de código que realizam uma tarefa específica. Elas ajudam a organizar o código e evitar repetições.</p>
+                    <p> Pense como: </p>
+                    <p>FAÇA isso QUANDO eu pedir</p>
+                    <p>📌Exemplo em Java:</p>
+                    <img src="imagens/ExemploFuncoes.png" alt="Exemplo de função/método em Java">
+
+                    <h3>5️⃣ Tratamento de Erros</h3>
+                    <h4><b>🔹 O que é? </b></h4>
+                    <p>É a forma de lidar com situações inesperadas que podem causar falhas no programa.</p>
+                    <p> Pense como: </p>
+                    <p>SE algo der errado, FAÇA isso para resolver</p>
+                    <p>📌Exemplo em Java:</p>
+                    <h4><b>🔹 Exemplo com try-catch</b></h4>
+                    <img src="imagens/ExemploTry.png" alt="Exemplo de tratamento de erro com try-catch em Java">
+                        
+                    <h3>6️⃣ Listas e Arrays</h3>
+                    <h4><b>🔹 O que são? </b></h4>
+                    <p>São estruturas de dados usadas para armazenar múltiplos valores em uma única variável.</p>
+                    <p> Pense como: </p>
+                    <p>uma caixa que pode guardar vários itens</p>
+                    <p>📌Exemplo em Java:</p>
+                    <h4><b>🔹 Array (tamanho fixo)</b></h4>
+                    <img src="imagens/ArrayUnic.png" alt="Exemplo de array em Java">
+                    <p><b>acessando:</b></p>
+                    <img src="imagens/ArrayUnicAcess.png" alt="Exemplo de acesso a array em Java">
+
+                    <h4><b>🔹 Lista (tamanho dinâmico)</b></h4>
+                    <img src="imagens/ArrayDina.png" alt=" Exemplo de lista em Java">
+                     <p><b>percorrendo:</b></p>
+                    <img src="imagens/ArrayDinamicPercorren.png" alt="Exemplo de percorrimento de lista em Java">
+
+                    <h3>📦 VETORES (ARRAYS) </h3>
+                    <h4><b>🔹 O que são vetores? </b></h4>
+                    <p>Vetores são estruturas usadas para armazenar vários valores do mesmo tipo em uma única variável.</p>
+                    <B>Pense assim:</B>
+                    <p>um vetor é uma lista organizada de caixinhas,
+                    cada caixinha tem uma posição (índice) e um valor.</p>
+
+                    <h4>🔹 Por que usar vetores?</h4>
+                    <p>Vetores permitem armazenar múltiplos valores de forma organizada e acessar esses valores por meio de índices, facilitando a manipulação de dados.</p>
+                    <B>Sem vetor:</B>
+                    <img src="imagens/VetorSem.png" alt=" Exemplo sem uso de vetor">
+                    <B>Com vetor:</B>
+                    <img src="imagens/VetorCom.png" alt="Exemplo com us de vetor">
+                    <p>Armazena uma lista simples de valores, em uma única dimensão (linha).</p>
+                    <p>📌Exemplo de vetor com for:</p>
+                    <img src="imagens/VetorFor.png" alt="Exemplo de vetor com for em Java">
+                    
+                    <h3>2️⃣ Vetor Bidimensional (Matriz)</h3>
+                    <h4><b>🔹 O que é um vetor bidimensional? </b></h4>
+                    <p>Um vetor bidimensional, ou matriz, é uma estrutura de dados que armazena valores em uma grade de linhas e colunas, permitindo organizar os dados em duas dimensões.</p>
+                    <b></b>📌 Exemplo prático:</b>
+                    <p> &bull; tabela de notas</p>
+                    <p> &bull; tabuleiro de jogo</p>
+                    <p> &bull; mapa de pixels</p> 
+                    
+                    <h4>🔹 Declaração</h4>
+                    <img src="imagens/VetorBi.png" alt="Exemplo de declaração de matriz em Java"> 
+                    <b> ou incializando:</b>
+                    <img  src="imagens/MatrizBi.png" alt="Exemplo de inicialização">
+
+                    <h4>🔹 Percorrendo </h4>
+                    <img src="imagens/MatrizPerco.png" alt="Exemplo de percorrimento de matriz em Java">
+                        
+                    <h3>3️⃣ Vetor Tridimensional</h3>
+                    <h4><b>🔹 O que é um vetor tridimensional? </b></h4>
+                    <p>Um vetor tridimensional é uma estrutura de dados que armazena valores em uma grade de linhas, colunas e profundidade, permitindo organizar os dados em três dimensões.</p>
+                    <b>📌 Exemplo prático:</b>
+                    <p> &bull; escola → turmas → alunos </p>
+                    <p> &bull; prédio → andares → salas </p>
+                    <p> &bull; jogos 3D (conceito) </P> 
+                        
+                    <h4>🔹 Declaração</h4>
+                    <img src="imagens/VetorTri.png" alt="Exemplo de declaração de vetor tridimensional em Java">
+                    <b> ou incializando:</b>
+                    <img src="imagens/MatrizTri.png" alt="Exemplo de inicialização de vetor tridimensional em Java">
+                    <h4>🔹 Percorrendo </h4>
+                    <img src="imagens/VetorTriPerco.png" alt="Exemplo de percorrimento de vetor tridimensional em Java">
+
+
+
+                    
+
+
+            </section>
+
+           
+
+            <section id="poo">
+                <h2>🧱 POO</h2>
+                
+                <h3> 0️⃣Classe </h3>
+                
+                <p> Classe é um modelo ou molde usado para criar objetos. Ela define quais características (atributos) e comportamentos (métodos) os objetos terão. 
+                <p>📌 Exemplo: Uma classe Aluno pode ter: • nome • idade • matrícula • método estudar() .</p>
+                    <img src="Imagens/ExemploAluno.png" alt="Exemplo de classe Aluno">
+                
+                <h3>1️⃣Objeto</h3>
+                
+                <p>Objeto é uma instância de uma classe, ou seja, algo criado a partir do molde.<P>
+                </P>Se a classe é Aluno, um objeto pode ser:</p>
+                    <img src="Imagens/ExemploObj.png" alt="Exemplo de objeto Aluno">
+                <p>👉Classe = molde <p>
+                </p>👉 Objeto = coisa real criada a partir do molde</p>
+                
+                <h3>2️⃣ Atributo</h3>
+
+                <p>Atributo é uma característica ou propriedade de um objeto. Ele descreve o estado do objeto.</p>
+                <p>📌Exemplo: Na classe Aluno, os atributos podem ser:</p>
+                     <img src="Imagens/ExemploAtributo.png" alt="Exemplo de atributos da classe Aluno"></p>
+                
+                     
+                 <h3> 3️⃣Separação de Responsabilidades</h3> 
+                   <p>É a ideia de que cada classe deve fazer apenas uma coisa.</p> 
+                    <b>Regra facil:</b>
+                    <p>Se uma classe tem mais de uma responsabilidade, ela deve ser dividida em classes menores e mais específicas.</p>
+                    <p></p>❌ Exemplo errado</p>
+                    <img src = "imagens/ExemploSPRX.png" alt="Exemplo de classe com mais de uma responsabilidade">
+                    <P> nesse exemplo o aluno deveria guardar apenas informações do aluno, e a classe disciplina deveria guardar as informações da disciplina, mas aqui a classe aluno tem as duas responsabilidades, o que pode causar confusão e dificultar a manutenção do código.</p>
+                    <p>✅ Exemplo certo</p>
+                    <img src="Imagens/ExemploSPRC.png" alt="Exemplo de classe com responsabilidade única">
+                    <P>classe aluno(dados) separada da ação(cadastro)</P>
+                    <img src="Imagens/ExemploSPRC1.png" alt="Exemplo de classe com responsabilidade única 2">
+                    <P></P>
+                    <img src="Imagens/ExemploSPRCP.png" alt="exemplo de classe principal">
+               
+                    <h3>4️⃣ Método</h3>
+                <p>Método é uma ação ou comportamento que um objeto pode realizar. Ele define o que o objeto pode fazer.</p>
+                <p>📌Exemplo: Na classe Aluno, um método pode ser:</p>
+                    <img src="Imagens/ExemploMetodo.png" alt="Exemplo de método da classe Aluno">
+               
+                <h3>5️⃣ Construtor</h3>
+
+                <p>Construtor é um método especial usado para criar objetos. Ele é chamado automaticamente quando um objeto é criado e geralmente é usado para inicializar os atributos do objeto.</p>
+                <p>📌Exemplo: Na classe Aluno, um construtor pode ser:</p>
+                     <img src="Imagens/ExemploConstr.png" alt="Exemplo de construtor da classe Aluno">
+                
+                     <h3>6️⃣ Encapsulamento – private + getters/setters</h3>
+
+                <p>Encapsulamento é um princípio da POO que consiste em proteger os dados de um objeto, tornando-os privados (private) e fornecendo métodos públicos (getters e setters) para acessar e modificar esses dados de forma controlada.</p>
+                <p>📌Exemplo: Na classe Aluno, podemos tornar o atributo nome privado e criar métodos públicos para acessá-lo e modificá-lo:</p>
+                    <img src="Imagens/ExemploEncap.png" alt=" Exemplo de encapsulamento da classe Aluno">
+                
+                <h3>7️⃣ Herança</h3>
+
+                <p>Herança é um conceito que permite criar uma nova classe a partir de uma classe existente. A nova classe (subclasse) herda os atributos e métodos da classe existente (superclasse) e pode adicionar novos ou modificar os existentes.</p>
+                <p>📌Exemplo: Se temos uma classe Aluno, podemos criar uma subclasse nome que herda os atributos e métodos de Aluno e adiciona seus próprios atributos e métodos.</p>
+                      <img src="Imagens/ExemploHeranca.png" alt="Exemplo de herança entre classes">
+                
+                <h3>8️⃣ Polimorfismo</h3>
+
+                <p>Polimorfismo é a capacidade de um objeto se comportar de diferentes formas, dependendo do contexto. Ele permite que objetos de diferentes classes sejam tratados como objetos da mesma classe, desde que compartilhem uma relação de herança.</p>
+                <p>📌Exemplo:O polimorfismo ocorre quando uma variável do tipo da classe pai referencia um objeto da classe filha, permitindo que o mesmo método apresente comportamentos diferentes conforme o objeto instanciado.</p>
+                <h4>Classe pai:</h4>
+                    <img src="Imagens/ExemploPolimorf.png" alt="Exemplo de classe pai para polimorfismo">
+                <h4>Classe filha 1:</h4>
+                    <img src="Imagens/ExemploPolimof2.png" alt="Exemplo de classe filha 1 para polimorfismo">
+                <h4>Classe principal:</h4>
+                    <img src="Imagens/ExemploPolimorf3.png" alt="Exemplo de classe principal para polimorfismo">
+                
+                <h4>9️⃣ Abstração</h4>
+
+                <p>Abstração é o processo de simplificar um sistema complexo, focando apenas nos aspectos essenciais e ignorando os detalhes desnecessários. Na POO, a abstração é alcançada por meio de classes e objetos, permitindo que os programadores se concentrem no que um objeto faz, em vez de como ele faz.</p>
+                <p>📌Exemplo 01: No exemplo, temos uma classe abstrata chamada Forma:</p>
+                    <img src="Imagens/ExemploAbs.png" alt="Exemplo de classe abstrata para abstração">
+                <p>👉 A classe abstrata mostra o que deve ser feito, mas não como.</p>
+                <h4>Classe Concreta:</h4>
+                    <img src="Imagens/ExemploAbs2.png" alt="Exemplo de classe concreta para abstração">
+                <h4>📌 Onde a abstração aparece de verdade</h4>
+                    <img src="Imagens/ExemploAbs3.png" alt="exemplo de classe concreta para abstração">
+                <p>A abstração é utilizada para representar conceitos genéricos. No exemplo, a classe abstrata <b>Forma</b> define o método <b>calcularArea()</b>, sem detalhar sua implementação. A classe <b>Quadrado</b> herda de <b>Forma</b> e implementa o método, definindo como o cálculo da área é realizado. Dessa <b>forma</b>, o sistema trabalha com a abstração Forma, sem depender do tipo concreto.</p>
+                
+
+
+
+            </section>
+
+            <section id="banco">
+                <h2>🗄️ Banco de Dados</h2>
+                 <h3>1️⃣ Conceitos Básicos</h3>
+                    <b>🔹 Dado e Informação</b>
+                        <P>Dado é um valor isolado, sem explicação.</P>
+                        <b>Exemplo:</b>
+                        <p> "20 ou Maria."</p>
+                        <p>Sozinho, isso não quer dizer muita coisa.</p>
+                        <p>Informação é quando esse dado passa a ter significado.</p>
+                        <b>Exemplo:</b>
+                        <p> "Maria tem 20 anos."</p>
+                        <p>👉 Ou seja, informação é o dado organizado de forma que faça sentido.</p>
+
+                    <b>🔹 O que é Banco de Dados?</b>
+                        <p>Banco de dados é um conjunto de informações organizadas para facilitar o armazenamento, a busca e a atualização desses dados.</p>
+                        <p>Ele é usado para guardar informações de empresas, escolas, hospitais, lojas e praticamente qualquer sistema que precise registrar dados</p>
+           
+                    <b>🔹 O que é SGBD?</b>
+                        <p>SGBD (Sistema de Gerenciamento de Banco de Dados) é um software que permite criar, gerenciar e manipular bancos de dados. Ele fornece ferramentas para armazenar, consultar e proteger os dados.</p>
+                        <p>O banco é onde os dados ficam guardados. O  SGBD é quem administra esses dados.</p>
+                        <p>Exemplos de SGBD: MySQL, PostgreSQL, Oracle, SQL Server.</p>
+                    
+                    <b>🔹 Tabela, Campo e Registro</b>
+                        <p>Em um banco de dados, os dados são organizados em tabelas. Cada tabela é composta por campos (colunas) e registros (linhas).</p>
+                        <p>Campo: é uma categoria de informação (ex: nome, idade, email).</p>
+                        <p>Registro: é um conjunto de campos que formam uma entrada completa (ex: um registro de aluno com nome, idade e email).</p>
+
+                    <b>🔹 Chave Primária</b> 
+                        <p>A chave primária é o campo que identifica cada registro de forma única.</p>
+                        <p>Ela não pode se repetir.</p>
+                        <p>Por exemplo, o “id” do aluno normalmente é a chave primária.</p>
+                        <p>Isso evita que dois alunos tenham o mesmo identificador.</p> 
+                        
+                    <h4>📌 Exemplo de chave primaria no mysql</h4>
+                        <img src="imagens/primarykey.png" alt=" exemplo de chave primaria">
+                        <p> Essa chave primaria é única para cada registro da tabela genero</p>
+
+                    <b>🔹 Chave Estrangeira</b>
+                        <p>A chave estrangeira é um campo que referencia a chave primária de outra tabela.</p>
+                        <p>Isso permite criar relacionamentos entre tabelas.</p>
+                        <p>Exemplo: uma tabela "Aluno" pode ter uma chave estrangeira que aponta para a tabela "Curso", indicando o curso do aluno.</p>
+                        
+                    <h4>📌 Exemplo de chave estrangeira no mysql</h4>
+                        <img src="imagens/ChaveEstrang.png" alt=" exemplo de chave estrangeira">
+                        <p> Essa chave estrangeira aponta para a chave primária da tabela curso</p>
+
+                    <b>🔹 Relacionamentos</b>
+                        <p>Relacionamentos são as conexões entre tabelas em um banco de dados. Eles podem ser:</p>
+                        <p> &bull; Um para um (1:1): Um registro se relaciona com apenas um outro.</p>
+                        <p> &bull; Um para muitos (1:N): Um registro pode se relacionar com vários outros.
+                            Exemplo: um professor pode ter vários alunos..</p>
+                        <p> &bull; Muitos para muitos (N:N): Vários registros se relacionam com vários outros.
+                            Exemplo: um aluno pode fazer vários cursos e um curso pode ter vários alunos.</p>
+
+
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+                    </section>
+
+
+            <section id="mysql">
+                <h2>🐬 MySQL</h2>
+                <p>MySQL é um sistema para gerenciar bancos de dados.</p>
+            </section>
+
+            <section id="git">
+                <h2>🔧 Git</h2>
+                <p>Git controla versões do código.</p>
+            </section>
+
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer>
+            <p><strong>Aluno:</strong> Cassio Souza</p>
+            <p><strong>Curso:</strong> Técnico em informatica</p>
+            <p><strong>Ano:</strong> 2026</p>
+        </footer>
+
+    </div>
+</div>
+
+<!-- JS -->
+<script src="js/config.js"></script>
+</body>
+</html>
